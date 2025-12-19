@@ -23,9 +23,7 @@ export default function App() {
           </a>
 
           <nav className="flex gap-4 text-sm text-slate-600">
-            <a className="hover:text-slate-900" href="#about">About</a>
             <a className="hover:text-slate-900" href="#projects">Projects</a>
-            <a className="hover:text-slate-900" href="#cv">CV</a>
             <a className="hover:text-slate-900" href="#contact">Contact</a>
           </nav>
         </div>
@@ -57,20 +55,9 @@ export default function App() {
             >
               View projects
             </a>
-            <a
-              className="rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-50"
-              href="#cv"
-            >
-              Jump to CV
-            </a>
+            
           </div>
         </section>
-
-        <Section id="about" title="About">
-          <p>
-            Add a short paragraph about you. Keep it simple and specific.
-          </p>
-        </Section>
 
         <Section id="projects" title="Projects">
           <div className="grid gap-4 md:grid-cols-2">
@@ -98,19 +85,11 @@ export default function App() {
           </div>
         </Section>
 
-        <Section id="cv" title="CV (starter)">
-          <ul className="list-disc pl-5">
-            <li><span className="font-medium">Education:</span> …</li>
-            <li><span className="font-medium">Skills:</span> …</li>
-            <li><span className="font-medium">Experience:</span> …</li>
-          </ul>
-        </Section>
-
         <Section id="contact" title="Contact">
           <p>
             Email:{" "}
-            <a className="underline underline-offset-4" href="mailto:you@example.com">
-              you@example.com
+            <a className="underline underline-offset-4" href="mailto:haraldurdadii@gmail.com">
+              haraldurdadii@gmail.com
             </a>
           </p>
           <p className="mt-2">
@@ -119,7 +98,7 @@ export default function App() {
         </Section>
 
         <footer className="py-10 text-sm text-slate-500">
-          Built with React + Tailwind. © {new Date().getFullYear()} Your Name
+          Built with React + Tailwind. © {new Date().getFullYear()} Haraldur Daði Arnarson
         </footer>
       </main>
     </div>
