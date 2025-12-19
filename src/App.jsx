@@ -19,7 +19,7 @@ export default function App() {
       <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
           <a href="#home" className="font-semibold tracking-tight text-slate-900">
-            Your Name
+            Haraldur Daði
           </a>
 
           <nav className="flex gap-4 text-sm text-slate-600">
@@ -40,7 +40,7 @@ export default function App() {
           </h1>
 
           <p className="mt-4 max-w-2xl text-slate-700">
-            Short intro here — what you’re studying, what you like building, and what you’re aiming for.
+            Computer Science student at the University of Iceland. 
           </p>
 
           <div className="mt-6 flex flex-wrap gap-2">
